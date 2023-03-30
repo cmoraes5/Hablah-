@@ -3,6 +3,7 @@ import { NavigationContainer, TabRouter } from "@react-navigation/native";
 
 import { StackRoutes } from "./stack.routes";
 import { ChatProvider } from "../contexts/ChatContext";
+import { TopTabs } from "./tab.routes";
 
 export function Routes(){
     return(
@@ -10,7 +11,7 @@ export function Routes(){
             <NavigationContainer>
 
                 <ChatProvider>
-                    <StackRoutes />
+                    <TopTabs />
                 </ChatProvider>
 
             </NavigationContainer>
