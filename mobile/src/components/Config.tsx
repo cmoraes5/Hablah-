@@ -19,7 +19,6 @@ export function Config() {
         <>
         <View
             className="
-                rounded-l-3xl 
                 bg-zinc-900 
                 flex flex-col 
                 h-screen"

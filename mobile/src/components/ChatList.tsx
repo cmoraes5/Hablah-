@@ -18,7 +18,6 @@ export function ChatList() {
 
         <View
             className="
-                rounded-r-3xl 
                 bg-zinc-900 
                 flex flex-col 
                 h-screen"
