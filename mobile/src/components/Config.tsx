@@ -17,9 +17,13 @@ import { useColorScheme } from "nativewind";
 export function Config() {
     return (
         <>
-            <View
-                className="bg-zinc-900 rounded-t-3xl flex flex-col h-screen"
-            >
+        <View
+            className="
+                rounded-l-3xl 
+                bg-zinc-900 
+                flex flex-col 
+                h-screen"
+        >
 
                 <View className="mt-10">
 

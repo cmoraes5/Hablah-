@@ -5,16 +5,14 @@ import { StackRoutes } from "./stack.routes";
 import { ChatProvider } from "../contexts/ChatContext";
 import { TopTabs } from "./tab.routes";
 
-export function Routes(){
-    return(
-        <View className="flex-1 bg-background">
-            <NavigationContainer>
+export function Routes() {
+    return (
+        <NavigationContainer>
 
-                <ChatProvider>
-                    <TopTabs />
-                </ChatProvider>
+            <ChatProvider>
+                <TopTabs />
+            </ChatProvider>
 
-            </NavigationContainer>
-        </View>
+        </NavigationContainer>
     )
 }

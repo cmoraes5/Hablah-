@@ -17,7 +17,11 @@ export function ChatList() {
 
 
         <View
-            className="bg-zinc-900 rounded-t-3xl flex flex-col h-screen"
+            className="
+                rounded-r-3xl 
+                bg-zinc-900 
+                flex flex-col 
+                h-screen"
         >
 
             <KeyboardAvoidingView behavior={Platform.OS === 'ios' ? 'padding' : 'height'}>
@@ -44,6 +48,11 @@ export function ChatList() {
                     id="1"
                     name="Caio"
                     message="Eaiiii, tudo bem?"
+                />
+                <Chat
+                    id="13"
+                    name="Carol"
+                    message="Oiee!"
                 />
                 <Chat
                     id="2"
@@ -99,11 +108,6 @@ export function ChatList() {
                     id="12"
                     name="Ian"
                     message="Aham"
-                />
-                <Chat
-                    id="13"
-                    name="Carol"
-                    message="Ainda?"
                 />
 
 
